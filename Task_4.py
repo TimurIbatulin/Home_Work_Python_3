@@ -22,7 +22,6 @@ for p in task:
     empti = set()
     for p1 in task[p]:
         empti.add(p1)
-    # print(f'empti - {empti}')
     for t in empti:
         if h > 2:
             h = 0
@@ -38,9 +37,3 @@ for u in general:
     for o in task:
         if u not in task[o]:
             print(f'{u} - не взял с собой {o}')
-   
-    # print(f'second - {second}')
-    # print(f'unique - {unique}')
-    # print(f'general - {general}')
-# print(unique)
-# print(general)
